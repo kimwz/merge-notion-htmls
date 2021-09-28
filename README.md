@@ -3,7 +3,7 @@ A simple script to merge html files exported from Notion into one html file.
 
 ### It is recommended in the following cases
 - If you want to export the Notion's document as a single file
-- If you want to keep internal links when merging into a single file
+- If you want to **keep internal links** when merging into a single file
 
 
 # How to use
