@@ -14,7 +14,7 @@ A simple script to merge html files exported from Notion into one html file.
 > cd notion-multiple-html-files-to-single
 > npm install
 
-> node ./merge.js [target.html]
+> node ./merge.js target.html
 
 load success : target.html
 load success : subpage/a.html
