@@ -21,8 +21,8 @@ merge-notion-htmls target.html
 manually
 ```
 
-git clone https://github.com/kimwz/notion-multiple-html-files-to-single
-cd notion-multiple-html-files-to-single
+git clone https://github.com/kimwz/merge-notion-htmls
+cd merge-notion-htmls
 npm install
 
 node ./merge.js target.html
