@@ -1,6 +1,7 @@
 {
   "name": "notions-multiple-html-to-single",
   "version": "0.0.1",
+  "main": "marge.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10"
   }

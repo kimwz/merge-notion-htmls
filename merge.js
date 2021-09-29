@@ -61,7 +61,7 @@ async function makeResult(filepath) {
       }
       .code, code {font-size:1.2em;word-break:break-word;white-space: pre-line;} 
       .link-to-page > a {font-size: 1.2em;font-weight:400;} 
-      .page-title { background-color:#f5f5f5;font-size:3em !important;padding:16px 10px;margin-top: 80px;}
+      .page-title { background-color:#f5f5f5;font-size:2.3em !important;padding:16px 10px;margin-top: 80px;}
     </style>`)
     html('body').html('')
     articles.forEach(a => html('body').append(a.html()))
@@ -85,6 +85,7 @@ async function makeResult(filepath) {
         }
     }
     fs.writeFileSync(basePath + 'out.html', html.html())
+    console.log('exported : ' + basePath + 'out.html')
 }
 
 async function start(filepath) {
