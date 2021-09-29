@@ -8,22 +8,37 @@ A simple script to merge html files exported from Notion into one html file.
 
 # How to use
 
+
+
 ```
 
-> git clone https://github.com/kimwz/notion-multiple-html-files-to-single
-> cd notion-multiple-html-files-to-single
-> npm install
+npm install -g merge-notion-htmls
+merge-notion-htmls target.html
 
-> node ./merge.js target.html
+```
 
+
+manually
+```
+
+git clone https://github.com/kimwz/notion-multiple-html-files-to-single
+cd notion-multiple-html-files-to-single
+npm install
+
+node ./merge.js target.html
+
+```
+
+Result 
+```
 load success : target.html
 load success : subpage/a.html
 load success : subpage/b.html
 load success : subpage/c.html
 ...
 exported : out.html
-```
 
+```
 
 # How to convert to pdf
 It provides simple but powerful features in the browser.
