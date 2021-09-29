@@ -1,8 +1,27 @@
 {
-  "name": "notions-multiple-html-to-single",
-  "version": "0.0.1",
-  "main": "marge.js",
+  "name": "merge-notion-htmls",
+  "version": "0.0.3",
+  "main": "merge.js",
+  "bin": {
+     "merge-notion-htmls": "./merge.js"
+  },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10"
-  }
+    "cheerio": "^1.0.0-rc.10",
+    "npm": "^7.24.1"
+  },
+  "description": "A simple script to merge html files exported from Notion into one html file.",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimwz/notion-multiple-html-files-to-single.git"
+  },
+  "author": "kimwz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimwz/notion-multiple-html-files-to-single/issues"
+  },
+  "homepage": "https://github.com/kimwz/notion-multiple-html-files-to-single#readme"
 }
